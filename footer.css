@@ -1,0 +1,96 @@
+.footer1container{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(28, 29, 31);
+  padding: 30px;
+  color: white;
+}
+.footer1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+.mail{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.mailicon{
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mail > icon{
+  font-size: 30px;
+}
+.mailtext{
+  font-size: 13px;
+}
+.mailtext > h5{
+  font-size: 12px;
+}
+.footer2{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 25%;
+ height: 9vh;
+ background-color: white;
+ border-radius: 3px;
+}
+.footer2 > input{
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: none;
+  width: 100%;
+  background: transparent;
+  border: none;
+
+}
+.footer2 > button{
+  border: none;
+  color: white;
+  background-color: rgb(237, 1, 127);
+  height: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer2container{
+  display: flex;
+  justify-content: space-between;
+  background-color: #2b2b2b;
+  color: white;
+  padding: 10px 25px;
+  width: 100%;
+  height: 27vh;
+}
+.footer2child{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 20px;
+}
+.footer2child > h2{
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+.footer2child > p{
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 100;
+  text-decoration: transparent;
+}
